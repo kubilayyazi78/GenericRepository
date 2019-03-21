@@ -55,7 +55,10 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PersonnelContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Abstract\IDepartmentRepository.cs" />
+    <Compile Include="Repositories\Abstract\IPersonnelRepository.cs" />
     <Compile Include="Repositories\Abstract\IRepository.cs" />
+    <Compile Include="Repositories\Concrete\DepartmentRepository.cs" />
     <Compile Include="Repositories\Concrete\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
