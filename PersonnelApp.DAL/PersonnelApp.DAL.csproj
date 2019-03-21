@@ -55,6 +55,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PersonnelContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Abstract\IRepository.cs" />
+    <Compile Include="Repositories\Concrete\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PersonnelApp.Domains\PersonnelApp.Domains.csproj">
@@ -71,5 +73,6 @@
       <DependentUpon>201903211803163_Init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
