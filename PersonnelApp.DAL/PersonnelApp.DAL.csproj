@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Migrations\201903211803163_Init.cs" />
     <Compile Include="Migrations\201903211803163_Init.Designer.cs">
       <DependentUpon>201903211803163_Init.cs</DependentUpon>
@@ -59,7 +60,9 @@
     <Compile Include="Repositories\Abstract\IPersonnelRepository.cs" />
     <Compile Include="Repositories\Abstract\IRepository.cs" />
     <Compile Include="Repositories\Concrete\DepartmentRepository.cs" />
+    <Compile Include="Repositories\Concrete\PersonnelRepository.cs" />
     <Compile Include="Repositories\Concrete\Repository.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PersonnelApp.Domains\PersonnelApp.Domains.csproj">

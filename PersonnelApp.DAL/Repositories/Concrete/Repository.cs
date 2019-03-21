@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PersonnelApp.DAL.Repositories.Concrete
 {
-    class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+   public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         protected DbContext _context;
         private DbSet<TEntity> _dbSet;
